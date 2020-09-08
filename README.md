@@ -161,12 +161,38 @@ for x in range(2, 12, 3):
 8
 11
 ```
+
 ---
-## Python Scripting Practice
-- Write a function `flip_it()` that reverses and prints whatever the user inputs.  
+## Python Scripting Practice 
+### Pair up and use Repl.it multiplayer to work collaboratively with another partner.  
 
-- Write a function `email_validate()` that takes an email address and determines if it is a valid address. ex: __ @ ___.___ or something similar.  
+1. Write a function `flip_it()` that reverses and prints whatever the user inputs.  
+```
+>>> Enter a word: 'Hello World'
+'dlroW olleH'
+```
 
-- 
+2. Write a function `email_validate()` that takes an email address and determines if it is a valid address. ex: __ @ ___.___ or something similar.  
+
+```
+>>> Enter an email address:  student@ops.org
+Valid
+>>> Enter an email address: student@ops
+Invalid
+
+```
+
+3.  Write a function `get_email()` that takes a VALID email address and then prints out (or returns) the username and domain.  
+
+```
+>>> Enter a valid email address: collin.holmquist@ops.org
+Username: collin.holmquist
+Domain: ops
+>>> Enter a valid email address: talldude2389@hotmail.com
+Username: talldude2389
+Domain: hotmail
+```
+
+Note: For each problem, think about what test data you might need to use.  What test data do you need to use in order to ensure that your program covers all cases? 
 
 
